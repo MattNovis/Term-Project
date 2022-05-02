@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Raleway:wght@400;700&display=swap');
 :root{
     --primary-color: #ED1C24;
     --primary-color-accent:#A30207;
@@ -23,21 +24,23 @@ body {
     font-size: 1em; /* 1 x html font size (1x 20px = 20px) */
     line-height: 1.25em; /* rem is the root element that it pulls from HTML in this example */
     color: #4d4d4d;
-    font-weight: 400;
-    font-family: 'Hind','Helvetica', sans-serif;
+    font-weight: 700;
+    font-family: 'Raleway','Helvetica', sans-serif;
     padding: 0;
     margin: 0;
 }
 /*fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-
 /*end Font imports */
 
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Merriweather Sans','Arial', 'sans-serif';
+h1,h2,h3{
+    font-family: 'Permanent Marker', cursive, Arial, Helvetica, sans-serif;
     line-height: 1.25em;
     font-weight: 700;
+    letter-spacing: 3px;
+}
+h4{
+    font-family: 'Raleway','Helvetica', sans-serif;
 }
 
 h1{
@@ -250,7 +253,7 @@ nav{
         position: absolute;
 
     }
-
+}
 /* Start of Menu Page */
 
 .menu-page-title h1 {
@@ -268,39 +271,61 @@ nav{
     align-items: flex-start;
     align-content: flex-start;
     justify-content: center;
+    background-color: var(--primary-color);
 }
-
-.combos-row1 img {
-    width: 85%;
-    margin-left: 2rem;
-    border: 3px solid #AAABB8;
-    margin-bottom: 2rem;
+.category-title h2{
+    color:var(--white);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
-
-.fried-chicken-row2 img {
-    width: 85%;
-    margin-left: 2rem;
-    border: 3px solid #AAABB8;
-    margin-bottom: 2rem;
+.menu-items img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 1rem;
 }
-
-.seafood-row3 img {
-    width: 85%;
-    margin-left: 2rem;
-    border: 3px solid #AAABB8;
-    margin-bottom: 2rem;
+.order_online{
+    background-image:url(../img/online.png);
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 100;
+    transition: background-image 250ms;
 }
-
-.sides-row4 img {
-    width: 85%;
-    margin-left: 2rem;
-    border: 3px solid #AAABB8;
-    margin-bottom: 2rem;
+.order_online:hover{
+    background-image:url(../img/online_h.png);
+}
+@media screen and (min-width:576px){
+    .menu-items img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        margin-bottom: 2rem;       
+}} 
+@media screen and (min-width:768px){
+    .menu-items img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        margin-bottom: 2rem;  
+}}
+@media screen and (min-width:992px){
+    .menu-items img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 2rem;  
+}
+}
+.menu-items h4{
+    margin-top: 0rem;
+    margin-bottom: .5rem;
 }
 
 /* End of Menu Page */
-
-}
 /*Start Footer */
 .frow{
     margin-left: -1rem;
@@ -313,7 +338,7 @@ nav{
     flex: 0 0 80%;
     color: white;
 }
-@media screen and (max-width:768px) {.frow {flex-flow: column wrap;text-align: center;}}
+/* @media screen and (max-width:768px) {.frow {flex-flow: column wrap;text-align: center;}} */
 .frow a{
     color: white;
 }
@@ -351,6 +376,9 @@ nav{
     background-size: cover;
     position: relative;
 }
+.hero-img-2{
+    background-image: url(../img/hero-eating.jpg);
+}
 
 .hero-txt, .hero-txt h1{
     
@@ -360,11 +388,10 @@ nav{
     left: 25%;
     transform: translate(-50%, -50%);
     color: var(--tertiary-color);
-    text-shadow: 1px 1px black;
-    font-family: 'Kaushan Script', cursive;
+    text-shadow: 2px 2px black;
     font-size: 1.75em;
-    
 }
+#hero-txt-2{ top: 20%; left:30%}
  /*End hero Image */
  /* Featured Component*/
  .featured{

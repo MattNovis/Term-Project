@@ -1,7 +1,10 @@
 <?php
 $header ="<header> 
 <nav>
-        <a href='index.php' class='navbar-brand'>Personal Portfolio </a>
+        <a href='index.html' class='navbar-brand'>Lisas Chicken Nav </a>
+        <button class='navbar-toggler' type='button' data-target='#main-navigation'>
+        <i class='fas fa-bars'></i>
+        </button>
         <ul id='main-navigation' class='navbar'>
             <li><a href='index.php' title='Home'>Home</a></li>
             <li><a href='about.php' title='about'>About Us</a></li>
