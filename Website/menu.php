@@ -71,7 +71,7 @@ include ('shared.php');
                 <div class="col-sm-12 col-md-6 col-lg-4">
                         <img src="img/fried-chicken-2.jpg">
                         <div class="sub-category-title">
-                            <h4>3 Pieces</h4>
+                            <h4>5 Pieces</h4>
                             <p>Dark / Mixed / White</p>
                         </div>
                          
@@ -79,7 +79,7 @@ include ('shared.php');
                 <div class="col-sm-12 col-md-6 col-lg-4">
                         <img src="img/fried-chicken-2.jpg">
                         <div class="sub-category-title">
-                            <h4>3 Pieces</h4>
+                            <h4>10 Pieces</h4>
                             <p>Dark / Mixed / White</p>
                         </div>         
                 </div>
