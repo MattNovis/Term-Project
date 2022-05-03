@@ -2,9 +2,23 @@
     include ('shared.php');
     $h = date('G');
 
-if ($h >= 5 && $h <= 17) $img = 'img/chicken_sandwich.png';
-else if ($h > 17 && $h <= 24) $img = 'img/tenders-combo.jpg';
-else $img = 'img/chicken_sandwich.png';
+if ($h >= 11 && $h < 17) $img = 'img/chicken_sandwich.png';
+    else if ( ($h >= 17 && $h <= 23) || ($h >= 1 && $h < 5) ) $img = 'img/tenders-combo.jpg';
+    else $img = 'img/chicken_sandwich.png';
+
+if ($h >= 11 && $h < 17) {
+        $message = "Our new chicken sandwich is here! Try out the new hot, ready and juicy sandwich now!";
+}   else if ( ($h >= 17 && $h <= 23) || ($h >= 1 && $h < 5) ) {
+        $message = "Get our 3 piece chicken combo at 20% off during dinner hours (5pm-11pm)!";
+
+}   else $message = "Our new chicken sandwich is here! Try out the new hot, ready and juicy sandwich now!";
+
+if ($h >= 11 && $h < 17) {
+        $promo = "Bold Juicy New";
+}   else if ( ($h >= 17 && $h <= 23) || ($h >= 1 && $h < 5) ) {
+        $promo = "Our Classic";
+
+}   else $promo = "Bold Juicy New";
 ?>
 
 <!DOCTYPE html>
@@ -34,7 +48,7 @@ else $img = 'img/chicken_sandwich.png';
                 <div class="featured">
                     <div class="col-lg-12 ">
                         <h2>Time To Dig In</h2>  
-                        <p>Our new chicken sandwich is here! Try out the new hot, ready and juicy sandwich now!</p>
+                        <p><?php echo $message; ?></p>
                     </div>
                     
                 </div>
@@ -48,7 +62,7 @@ else $img = 'img/chicken_sandwich.png';
             <div class="col-lg-6">
                 <div class="featured">
                     <div class="col-lg-12 ">
-                        <h2>Bold Juicy New</h2>  
+                        <h2><?php echo $promo; ?></h2>  
                     </div>
                     <div class="col-lg-12 ">
                         <img src="<?php echo $img; ?>">

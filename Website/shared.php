@@ -9,7 +9,7 @@ $header ="<header>
             <li><a href='index.php' title='Home'>Home</a></li>
             <li><a href='about.php' title='about'>About Us</a></li>
             <li><a href='menu.php' title='menu'>Menu</a></li>
-            <li><a href='locations.php' title='about'>Locations</a></li>
+            <li><a href='locations.php' title='locations'>Locations</a></li>
             <li><a href='contact.php' title='contact'>Contact Us</a></li>
         </ul>
     </nav>
@@ -23,7 +23,7 @@ $footer = "<footer>
             <li><a href='index.php' title='Home'>Home</a></li>
             <li><a href='about.php' title='about'>About Us</a></li>
             <li><a href='menu.php' title='menu'>Menu</a></li>
-            <li><a href='locations.php' title='about'>Locations</a></li>
+            <li><a href='locations.php' title='locations'>Locations</a></li>
             <li><a href='contact.php' title='contact'>Contact Us</a></li>
         </ul>
     </div>

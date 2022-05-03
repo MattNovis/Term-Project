@@ -33,7 +33,7 @@ include ('shared.php');
             </div>
             <div class="menu-items">
             <div class="row">
-                <div class="col-md-6 col-lg-4"> 
+                <div class="col-sm-12 col-md-6 col-lg-4"> 
                         <img src="img/tenders-combo.jpg">
                         <div class="sub-category-title">
                             <h4>3 Piece Chicken Combo</h4>
@@ -41,7 +41,7 @@ include ('shared.php');
                         </div>
                          
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                         <img src="img/chicken_combo2.jpg">
                         <div class="sub-category-title">
                             <h4>5 Piece Tender Strips Combo</h4>
@@ -49,7 +49,7 @@ include ('shared.php');
                         </div>
                          
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                         <img src="img/chicken_sandwich.png">
                         <div class="sub-category-title">
                             <h4>Chicken Sandwich Combo</h4>
@@ -183,6 +183,39 @@ include ('shared.php');
                         <img src="img/green-beans.png">
                         <div class="sub-category-title">
                             <h4>Green Beans</h4>
+                        </div>
+                         
+                    </div>
+                </div>
+            </div>
+            <div class="category-title">
+                <h2>Kid's Menu</h2>
+            </div>
+            <div class="sides-note">
+                <p>*Comes with Sm. Side & Drink*</p>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    
+                        <img src="img/kids-tenders.png">
+                        <div class="sub-category-title">
+                            <h4>3 Tenders</h4>
+                        </div>
+                    
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    
+                        <img src="img/kids-chicken.jpg">
+                        <div class="sub-category-title">
+                            <h4>2 Pieces</h4>
+                        </div>
+                         
+                
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="seafood-row3">
+                        <img src="img/kids-nuggets.jpg">
+                        <div class="sub-category-title">
+                            <h4>6 Piece Nuggets</h4>
                         </div>
                          
                     </div>

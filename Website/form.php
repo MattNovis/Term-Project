@@ -26,7 +26,9 @@ $output = "Your contact information was received successfully."
     <?php echo $header ?>
 
 <div class="container">
-    <?php echo $output ?>
+    <div class="form-message">
+        <p><?php echo $output ?></p>
+    </div>
 </div>
 	
 

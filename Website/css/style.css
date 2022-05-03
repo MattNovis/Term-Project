@@ -195,13 +195,12 @@ nav{
     color: white;
 }
 .navbar a:hover{
-    background-color: var(--secondary-color);
-    color: var(--black);
+    color: var(--tertiary-color);
 
 }
 
 .navbar .dropdown > ul {
-    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
 
 }
 .navbar .dropdown > ul a{
@@ -430,6 +429,15 @@ nav{
      list-style-type: none;
  }
  /* End footer */
+
+/* Form Message */
+
+.form-message {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
  /*hero Image */
  [class^='hero-img']{
     background-image: url(../img/hero-chicken.jpg);
@@ -513,7 +521,6 @@ nav{
     .icons{max-width: 30px;}
 }
     
-}
 /* End Icons*/
 /*hover effect*/
 #hvr:hover{
