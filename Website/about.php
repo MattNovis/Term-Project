@@ -25,12 +25,12 @@
                 </div>
             </div>
         </div>
+    <div class="container">
         <div class="who-header">
             <h2>Who Are We?</h2>
         </div>
 
-        <p>Lisa's Chicken is a value Chicken Fastfood chain based in the Dallas Fortworth metroplex. Our goal is to provide southern-style fried chicken at an affordable price that our customers can enjoy.</p>
-
+        <p>Lisa's Chicken is a value Chicken Fastfood chain based in the Dallas Fortworth metroplex. Our goal is to provide southern-style fried chicken at an affordable price that our customers can enjoy. This mission has served us and our community in the DFW area for over 20 years and have no plans of stopping.</p>
         <div class="row">
             <div class="col-lg-12">
                 <div class="review-header">
@@ -44,6 +44,7 @@
                 <span class="yelp-review" data-review-id="f-48PCEOJgPye3yh33d3iA" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=cICitEKm1nbhVQbtNtWRVA" rel="nofollow noopener">Javi A.</a>'s <a href="https://www.yelp.com/biz/lisas-chicken-grand-prairie-2?hrid=f-48PCEOJgPye3yh33d3iA" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/htIpR-azMQxNgZsHa_2Xrw" rel="nofollow noopener">Lisa's Chicken</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>
             </div>
         </div>
+    </div>
     
     </main>
 

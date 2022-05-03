@@ -1,7 +1,7 @@
 <?php
 $header ="<header> 
 <nav>
-        <a href='index.html' class='navbar-brand'>Lisas Chicken Nav </a>
+        <a href='index.php' class='navbar-brand'>Lisas Chicken Nav </a>
         <button class='navbar-toggler' type='button' data-target='#main-navigation'>
         <i class='fas fa-bars'></i>
         </button>
