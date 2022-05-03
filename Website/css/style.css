@@ -447,7 +447,14 @@ nav{
 #storefront{
     background-image: url(../img/storefront.jpg);
 }
+#menuhero{
+    background-image: url(../img/meal.jpg);
 
+}
+#abouthero{
+    background-image: url(../img/family.jpg);
+
+}
 .hero-txt, .hero-txt h1{
     
     text-align: center;
