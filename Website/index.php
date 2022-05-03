@@ -1,5 +1,15 @@
 <?php
     include ('shared.php');
+    $h = date('G'); //set variable $h to the hour of the day
+//G is the date key for hours in 24 format (not 12), with no leading 0s, like 02.
+
+if ($h >= 5 && $h <= 11) $img = 'img/chicken_sandwich.png';
+else if ($h >= 12 && $h <= 18) $img = 'img/tenders-combo.jpg';
+else $img = 'img/chicken_sandwich.png';
+
+//if it's before 7am, use fish image
+//if not and it's before 8pm, use frogs
+//otherwise, potatoes
 ?>
 
 <!DOCTYPE html>
@@ -46,7 +56,7 @@
                         <h2>Bold Juicy New</h2>  
                     </div>
                     <div class="col-lg-12 ">
-                    <img src="img/chicken_sandwich.png" alt="New Chicken Sandwich"/>
+                        <img src="<?php echo $img; ?>">
                     </div>
                 </div>
             </div>    
