@@ -254,6 +254,40 @@ nav{
 
     }
 }
+/* Start of About Us Page */
+
+[class^='about-background']{
+    background-image: url(../img/hero-eating.jpg);
+    height: 300px;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.about-header-text h1 {
+    text-align: center;
+    color: var(--tertiary-color);
+    text-shadow: 2px 2px black;
+    font-size: 1.75em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.who-header {
+    text-align: center;
+}
+
+.review-header {
+    text-align: center;
+}
+
+/* End of About Us Page */
+
 /* Start of Menu Page */
 
 .menu-page-title h1 {
