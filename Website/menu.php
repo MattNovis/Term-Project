@@ -29,41 +29,59 @@ include ('shared.php');
             </div>
             <div class="menu-items">
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-4"> 
+                <div class="col-md-6 col-lg-4"> 
                         <img src="img/tenders-combo.jpg">
+                        <div class="sub-category-title">
+                            <h4>3 Piece Chicken Combo</h4>
+                            <p>2 Sides, Pepper, Roll, Sm. Drink</p>
+                        </div>
                          
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4">
                         <img src="img/tenders-combo.jpg">
+                        <div class="sub-category-title">
+                            <h4>5 Piece Tender Strips Combo</h4>
+                            <p>2 Sides, Gravy, Roll, Sm. Drink</p>
+                        </div>
                          
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4">
                         <img src="img/tenders-combo.jpg">
+                        <div class="sub-category-title">
+                            <h4>2 Piece Fish Fillet Combo</h4>
+                            <p>2 Sides, Roll, Sm. Drink</p>
+                        </div>
                          
                 </div>
             </div>
+            <br>
             
             <div class="category-title">
                 <h2>Fried Chicken</h2>
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="menu-items">
                         <img src="img/fried-chicken-2.jpg">
+                        <div class="sub-category-title">
+                            <h4>3 Pieces</h4>
+                            <p>Dark / Mixed / White</p>
+                        </div>
                          
-                    </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="menu-items">
                         <img src="img/fried-chicken-2.jpg">
+                        <div class="sub-category-title">
+                            <h4>3 Pieces</h4>
+                            <p>Dark / Mixed / White</p>
+                        </div>
                          
-                    </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="menu-items">
                         <img src="img/fried-chicken-2.jpg">
-                         
-                    </div>
+                        <div class="sub-category-title">
+                            <h4>3 Pieces</h4>
+                            <p>Dark / Mixed / White</p>
+                        </div>         
                 </div>
             </div>
             <div class="category-title">
@@ -73,47 +91,63 @@ include ('shared.php');
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     
                         <img src="img/catfish.jpg">
-                        <h4>Catfish</h4>
-                         
+                        <div class="sub-category-title">
+                            <h4>2 Piece Catfish</h4>
+                            <p>*Fish Only*</p>
+                        </div>
                     
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     
                         <img src="img/shrimp.jpg">
-                        <h4>Shrimp</h4>
+                        <div class="sub-category-title">
+                            <h4>Shrimp</h4>
+                        </div>
                          
                 
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="seafood-row3">
                         <img src="img/gizzards.jpg">
-                        <h4>Gizzards</h4>
+                        <div class="sub-category-title">
+                            <h4>Gizzards</h4>
+                        </div>
                          
                     </div>
                 </div>
             </div>
+            <br>
             <div class="category-title">
                 <h2>Sides</h2>
+            </div>
+            <div class="sides-note">
+                <p>*Available in small, medium and large sizes*</p>
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="sides-row4">
                         <img src="img/mashed-potatoes.jpg">
-                        <h4>Mashed Potatoes</h4>
+                        <div class="sub-category-title">
+                            <h4>Mashed Potatoes</h4>
+                        </div>
                          
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="sides-row4">
                         <img src="img/fried-okra.png">
-                        <h4>Fried Okra</h4>
+                        <div class="sub-category-title">
+                            <h4>Fried Okra</h4>
+                        </div>
                          
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="sides-row4">
                         <img src="img/french-fries.jpg">
-                        <h4>French Fries</h4>
+                        <div class="sub-category-title">
+                            <h4>French Fries</h4>
+                        </div>
                          
                     </div>
                 </div>
@@ -123,21 +157,27 @@ include ('shared.php');
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="sides-row4">
                         <img src="img/mac-and-cheese.jpg">
-                        <h4>Macaroni and Cheese</h4>
+                        <div class="sub-category-title">
+                            <h4>Macaroni and Cheese</h4>
+                        </div>
                          
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="sides-row4">
                         <img src="img/coleslaw.jpg">
-                        <h4>Coleslaw</h4>
+                        <div class="sub-category-title">
+                            <h4>Coleslaw</h4>
+                        </div>
                          
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="sides-row4">
                         <img src="img/green-beans.png">
-                        <h4>Green Beans</h4>
+                        <div class="sub-category-title">
+                            <h4>Green Beans</h4>
+                        </div>
                          
                     </div>
                 </div>
