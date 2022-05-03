@@ -76,5 +76,6 @@
 </div>
 <br>
 <?php echo $footer ?>
+<script src="js/app.js"></script>
 </body>
 </html>

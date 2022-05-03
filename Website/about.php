@@ -49,9 +49,8 @@
     </div>
     
     </main>
-
     <?php echo $footer ?>
-
+    <script src="js/app.js"></script>
 
 </BODY>
 </HTML>

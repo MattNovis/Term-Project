@@ -26,11 +26,11 @@ $output = "Your contact information was received successfully."
     <?php echo $header ?>
 
 <div class="container">
-<?php echo $output ?>
+    <?php echo $output ?>
 </div>
 	
 
-
+    <script src="js/app.js"></script>
     <?php echo $footer ?>
 
 
