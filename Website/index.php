@@ -78,7 +78,32 @@
             </div>
         </div> 
     </div>
-        </div>
+    <div class="container">
+        <div class="row">  
+            <div class="col-lg-12">
+                <div class="contact-form">
+                <form method="GET" autocomplete="off">
+                    <fieldset>
+                        <legend>Sign up for promotional content</legend>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="user@domain.com" required>
+                            <button type="submit" class="btn btn-primary" id="submit" name="Submit">Submit</button>
+                        </div>
+                        
+                        <div>
+                            <?php
+                             $email = $_GET['email']. " has been added to the promotional email list!";
+                             echo $email;
+                            ?>
+                        </div>
+                    </fieldset>
+                    
+                </form>
+                </div>
+            </div>
+        </div> 
+    </div>
     <br>
     <?php echo $footer ?>
     <script src="js/app.js"></script>
