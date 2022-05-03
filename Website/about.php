@@ -17,6 +17,35 @@
 <BODY>
     <?php echo $header ?>
 
+    <main>
+        <div class="about-hero-graphic">
+            <div class="about-background">
+                <div class="about-header-text">
+                    <h1>About Us</h1>
+                </div>
+            </div>
+        </div>
+        <div class="who-header">
+            <h2>Who Are We?</h2>
+        </div>
+
+        <p>Lisa's Chicken is a value Chicken Fastfood chain based in the Dallas Fortworth metroplex. Our goal is to provide southern-style fried chicken at an affordable price that our customers can enjoy.</p>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="review-header">
+                    <h2>Reviews</h2>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <span class="yelp-review" data-review-id="pN8rCfMO7utPFM6xrlSHaQ" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=TetCT0hsAP_Bp8mjIE9OAw" rel="nofollow noopener">Robert H.</a>'s <a href="https://www.yelp.com/biz/lisas-chicken-arlington?hrid=pN8rCfMO7utPFM6xrlSHaQ" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/h1rTzvjOnWoIR6FxpWZ6Fg" rel="nofollow noopener">Lisa's Chicken</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>
+            </div>
+            <div class="col-lg-6">
+                <span class="yelp-review" data-review-id="f-48PCEOJgPye3yh33d3iA" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=cICitEKm1nbhVQbtNtWRVA" rel="nofollow noopener">Javi A.</a>'s <a href="https://www.yelp.com/biz/lisas-chicken-grand-prairie-2?hrid=f-48PCEOJgPye3yh33d3iA" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/htIpR-azMQxNgZsHa_2Xrw" rel="nofollow noopener">Lisa's Chicken</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>
+            </div>
+        </div>
+    
+    </main>
 
     <?php echo $footer ?>
 
