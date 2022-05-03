@@ -25,9 +25,11 @@ $output = "Your contact information was received successfully."
 <BODY>
     <?php echo $header ?>
 
-<p>
-	<?php echo $output ?>
-</p>
+<div class="container">
+<?php echo $output ?>
+</div>
+	
+
 
     <?php echo $footer ?>
 
