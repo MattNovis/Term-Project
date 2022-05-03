@@ -379,6 +379,9 @@ nav{
 .hero-img-2{
     background-image: url(../img/hero-eating.jpg);
 }
+#storefront{
+    background-image: url(../img/storefront.jpg);
+}
 
 .hero-txt, .hero-txt h1{
     
@@ -396,11 +399,14 @@ nav{
  /* Featured Component*/
  .featured{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-bottom: 1rem;
 }
-
+#storetext{
+    position: relative;
+    left: 75%;
+}
 .featured h2{
     text-align: center;
     color: var(--white);
@@ -427,11 +433,27 @@ nav{
 /* Icons*/
 
 .icons{
-    max-width: 20%;
+    max-width: 50px;
     max-height: auto;
 }
 
+@media screen and (max-width:768px){
+    .icons{max-width: 30px;}
+}
+    
+}
 /* End Icons*/
+/*hover effect*/
+#hvr:hover{
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    transition: all 250ms ease;
+}
+/*hover effect*/
+
  .home-lists{
     display: flex;
     flex-flow: row wrap;

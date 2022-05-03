@@ -7,8 +7,7 @@
 <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
         <meta name="keywords" content="keyword">
-        <meta name="description" content="About page contaning skills for Matthew Novis.">
-        <meta name="Matthew Novis" content="About Matthew Novis Page">
+        <meta name="Lisa's Chicken" content="Lisas Chicken homepage.">
     <title>Lisa's Chicken</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/4981312403.js" crossorigin="anonymous"></script>
@@ -27,18 +26,18 @@
     <div class="container">
         <div class="row">  
             <div class="col-lg-6">
-                <div class ="home-lists">
-                    <div class="col-lg-12">
-                    <p><a href="" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Menu</a></p>
-                    <p><a href="" target="https://www.doordash.com/store/lisa's-chicken-arlington-46816/" rel="noopener noreferrer" class="btn btn-secondary">Order Online</a></p>
-                    </div>
-                </div>
                 <div class="featured">
                     <div class="col-lg-12 ">
                         <h2>Time To Dig In</h2>  
                         <p>Our new chicken sandwich is here! Try out the new hot, ready and juicy sandwich now!</p>
                     </div>
                     
+                </div>
+                <div class ="home-lists">
+                    <div class="col-lg-12">
+                    <p><a href="" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Menu</a></p>
+                    <p><a href="" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Order Online</a></p>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -53,6 +52,33 @@
             </div>    
         </div>
     </div>
+    <div class="container-fluid"> <!-- HERO COMPONENT -->
+        <div class="row">
+            <div class="hero-img-2">
+                <div class="hero-txt" id="hero-txt-2">
+                    <h1>Family First</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">  
+            <div class="col-lg-12">
+                <div class="featured">
+                    <div class="col-lg-12">
+                    <h2>Family Values Are Our Values</h2>
+                    </div> 
+                    <div class="col-md-8 col-lg-9">
+                        <p>At Lisa's Chicken we are commited to providing the highest quality, freshest chicken to you and your family all at an affordable cost! We are committed to those values and will stop at nothing to make sure that while you are eating as Lisa's chicken you feel just as comfortable as you do at home. So the next time you have a long day we'll bring you the homestyle meal youve been looking for! </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                        <img src="img/satisfaction.png" alt="satisfaction gaurntee">
+                    </div>
+                </div> 
+            </div>
+        </div> 
+    </div>
+        </div>
     <br>
     <?php echo $footer ?>
     <script src="js/app.js"></script>
