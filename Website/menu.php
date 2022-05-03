@@ -103,7 +103,7 @@ include ('shared.php');
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     
-                        <img src="img/shrimp.jpg">
+                        <img src="img/shrimps.jpg">
                         <div class="sub-category-title">
                             <h4>Shrimp</h4>
                             <p>*Shrimp Only*</p>
