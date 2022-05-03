@@ -46,7 +46,7 @@ else $img = 'img/chicken_sandwich.png';
                 <div class ="home-lists">
                     <div class="col-lg-12">
                     <p><a href="menu.php" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Menu</a></p>
-                    <p><a href="" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Order Online</a></p>
+                    <p><a href="https://www.doordash.com/store/lisa's-chicken-arlington-46816/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Order Online</a></p>
                     </div>
                 </div>
             </div>

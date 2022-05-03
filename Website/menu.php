@@ -102,6 +102,7 @@ include ('shared.php');
                         <img src="img/shrimp.jpg">
                         <div class="sub-category-title">
                             <h4>Shrimp</h4>
+                            <p>*Shrimp Only*</p>
                         </div>
                          
                 
@@ -111,6 +112,7 @@ include ('shared.php');
                         <img src="img/gizzards.jpg">
                         <div class="sub-category-title">
                             <h4>Gizzards</h4>
+                            <p>French Fries or Gravy</p>
                         </div>
                          
                     </div>
