@@ -19,11 +19,15 @@ include ('shared.php');
 
     <main>
         <a href="https://www.doordash.com/store/lisa's-chicken-arlington-46816/" target="_blank"><div class="order_online"></div></a>
-
-        <div class="container">
-            <div class="menu-page-title">
-                <h1>Menu</h1>
+        <div class="container-fluid"> <!-- HERO COMPONENT -->
+            <div class="row">
+                <div class="hero-img" id="menuhero">
+                    <div class="hero-txt" id="storetext">
+                        <h1>Menu</h1>
+                    </div>
+                </div>
             </div>
+        <div class="container">
             <div class="category-title">
                 <h2>Combos</h2>
             </div>
@@ -38,7 +42,7 @@ include ('shared.php');
                          
                 </div>
                 <div class="col-md-6 col-lg-4">
-                        <img src="img/tenders-combo.jpg">
+                        <img src="img/chicken_combo2.jpg">
                         <div class="sub-category-title">
                             <h4>5 Piece Tender Strips Combo</h4>
                             <p>2 Sides, Gravy, Roll, Sm. Drink</p>
@@ -46,7 +50,7 @@ include ('shared.php');
                          
                 </div>
                 <div class="col-md-6 col-lg-4">
-                        <img src="img/tenders-combo.jpg">
+                        <img src="img/chicken_combo3.jpg">
                         <div class="sub-category-title">
                             <h4>2 Piece Fish Fillet Combo</h4>
                             <p>2 Sides, Roll, Sm. Drink</p>
@@ -69,7 +73,7 @@ include ('shared.php');
                          
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                        <img src="img/fried-chicken-2.jpg">
+                        <img src="img/chicken5.jpg">
                         <div class="sub-category-title">
                             <h4>5 Pieces</h4>
                             <p>Dark / Mixed / White</p>
@@ -77,7 +81,7 @@ include ('shared.php');
                          
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                        <img src="img/fried-chicken-2.jpg">
+                        <img src="img/chicken10.jpg">
                         <div class="sub-category-title">
                             <h4>10 Pieces</h4>
                             <p>Dark / Mixed / White</p>
