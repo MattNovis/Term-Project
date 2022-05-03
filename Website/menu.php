@@ -50,9 +50,9 @@ include ('shared.php');
                          
                 </div>
                 <div class="col-md-6 col-lg-4">
-                        <img src="img/chicken_combo3.jpg">
+                        <img src="img/chicken_sandwich.png">
                         <div class="sub-category-title">
-                            <h4>2 Piece Fish Fillet Combo</h4>
+                            <h4>Chicken Sandwich Combo</h4>
                             <p>2 Sides, Roll, Sm. Drink</p>
                         </div>
                          
