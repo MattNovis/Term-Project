@@ -32,7 +32,7 @@
             <h2>Who Are We?</h2>
         </div>
 
-        <p>Lisa's Chicken is a value Chicken Fastfood chain based in the Dallas Fortworth metroplex. Our goal is to provide southern-style fried chicken at an affordable price that our customers can enjoy. This mission has served us and our community in the DFW area for over 20 years and have no plans of stopping.</p>
+        <p>Lisa's Chicken is a value Chicken Fastfood chain based in the Dallas Fort-Worth metroplex. Our goal is to provide southern-style fried chicken at an affordable price that our customers can enjoy. This mission has served us and our community in the DFW area for over 20 years and have no plans of stopping.</p>
         <div class="row">
             <div class="col-lg-12">
                 <div class="review-header">

@@ -32,8 +32,8 @@ $footer = "<footer>
         <ul class='footer-list'>    
              <li>Hours</li>  
              <li>Mon-Thur: 9am-10pm</li> 
-             <li>Saturday:9am-11pm</li>
-             <li>Sunday:9am-10pm</li>
+             <li>Saturday: 9am-11pm</li>
+             <li>Sunday: 9am-10pm</li>
         </ul>
     </div>
     

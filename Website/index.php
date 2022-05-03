@@ -88,7 +88,7 @@ if ($h >= 11 && $h < 17) {
                     <h2>Family Values Are Our Values</h2>
                     </div> 
                     <div class="col-md-8 col-lg-9">
-                        <p>At Lisa's Chicken we are commited to providing the highest quality, freshest chicken to you and your family all at an affordable cost! We are committed to those values and will stop at nothing to make sure that while you are eating as Lisa's chicken you feel just as comfortable as you do at home. So the next time you have a long day we'll bring you the homestyle meal youve been looking for! </p>
+                        <p>At Lisa's Chicken we are commited to providing the highest quality, freshest chicken to you and your family all at an affordable cost! We are committed to those values and will stop at nothing to make sure that while you are eating as Lisa's chicken you feel just as comfortable as you do at home. So the next time you have a long day we'll bring you the homestyle meal you've been looking for! </p>
                     </div>
                     <div class="col-md-4 col-lg-3">
                         <img src="img/satisfaction.png" alt="satisfaction gaurntee">
